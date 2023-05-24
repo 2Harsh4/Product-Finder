@@ -2,7 +2,7 @@ const model = require('../model/product')
 const Product = model.Product;
 // const path = require('path');
 
-
+ 
 // Create product 
 exports.createProduct = (req, res) => {
   const product =  new Product(req.body);
