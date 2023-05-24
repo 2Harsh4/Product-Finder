@@ -3,7 +3,7 @@ const Product = model.Product;
 // const path = require('path');
 
 
-// Create
+// Create product
 exports.createProduct = (req, res) => {
   const product =  new Product(req.body);
   product.save()
